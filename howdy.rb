@@ -1,14 +1,14 @@
-require "./goodbye.rb"
 require "active_support/all"
 require "awesome_print" 
 require "pry-byebug"
 
 
-# my_string = "Hello, world!"
+my_string = "Hello, world!"
 
-# pp my_string
+pp my_string
 
-'''
+require "./goodbye.rb"
+
 pp 1.ordinalize    # => "1st"
 pp 2.ordinalize    # => "2nd"
 pp 53.ordinalize   # => "53rd"
@@ -23,9 +23,8 @@ pp "equipment".pluralize # => "equipment"
 pp "tables".singularize    # => "table"
 pp "rubies".singularize    # => "ruby"
 pp "equipment".singularize # => "equipment"
-'''
 
-pp "What's your name?"
+pp "Whats your name?"
 
 their_name = gets.chomp
 
