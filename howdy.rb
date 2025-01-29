@@ -2,7 +2,9 @@ require "active_support/all"
 require "awesome_print" 
 require "pry-byebug"
 
+pp "cactus".pluralize
 
+'''
 my_string = "Hello, world!"
 
 pp my_string
@@ -29,3 +31,4 @@ pp "Whats your name?"
 their_name = gets.chomp
 
 puts "Hello, " + their_name + "!"
+'''
